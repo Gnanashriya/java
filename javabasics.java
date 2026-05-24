@@ -5,14 +5,13 @@ public class javabasics
       {
         int pow=0;
         int decNum=0;
-        
+                
         while(binNo>0)
         {
           int ld=binNo%10;
           decNum=decNum+(ld * (int)Math.pow(2,pow));
           pow++;
           binNo = binNo/10;
-        
         }
         System.out.println("decimal of "+binNo+"="+decNum);
       } 

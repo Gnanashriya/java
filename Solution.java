@@ -54,22 +54,25 @@
 // }
 import java.util.*;
 public class Solution
- {
-  public static void update(int marks[],int nonchangable){
-     nonchangable=70;
-    for(int i=0;i<marks.length;i++){
+{
+  public static void update(int marks[],int nonchangable)
+  {
+    nonchangable=70;
+    for(int i=0;i<marks.length;i++)
+    {
       marks[i]=marks[i]+1;
     }
   }
-      public static void main(String[] args) {
+      public static void main(String[] args)
+      {
         int marks[]={97,98,99};
         int nonchangeable=0;
         update(marks, nonchangeable);
         System.out.println(nonchangeable);
-        for(int i=0;i<marks.length;i++){
+        for(int i=0;i<marks.length;i++)
+        {
           System.out.print(marks[i]+" ");
-
         }
-      System.out.println();
-  }
+        System.out.println();
+      }
 }
