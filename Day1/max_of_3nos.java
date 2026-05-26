@@ -131,5 +131,34 @@ if(cond){
 else{
   }
 
+26-05-20266
+Qs: take 2 inputs from user and satisfie the following con:
+1.a=b equal
+2.a>b a greater than b
+3.a<b a lesser than b
+sol:
+int a=sc.nextInt();
+        System.out.print("Enter B: ");
+        int b=sc.nextInt();
+
+        if (a==b){
+            System.out.println("Equal");
+        }
+        else{
+            if(a>b){
+                    System.out.println("A is greater than B");
+                }
+            else{
+                System.out.println("A is less than B");
+            }
+
+-- else-if cond --
+if(con)
+{  }// if this cond is true the it does not goes to else if cond 
+    // if it is false then it goes to "else if"
+else if(con)
+  {  }// if it is true the it does not goes to else
+else{   }
+
 
 */
