@@ -18,19 +18,28 @@ public class cond
         System.out.print("Enter B: ");
         int b=sc.nextInt();
 
-        if (a==b)
-        {
-            System.out.println("Equal");
+        // if (a==b)
+        // {
+        //     System.out.println("Equal");
+        // }
+        // else
+        // {
+        //     if(a>b)
+        //         {
+        //             System.out.println("A is greater than B");
+        //         }
+        //     else{
+        //         System.out.println("A is less than B");
+        //     }
+        // }
+        if(a==b){
+            System.out.println("a and b are equal");
         }
-        else
-        {
-            if(a>b)
-                {
-                    System.out.println("A is greater than B");
-                }
-            else{
-                System.out.println("A is less than B");
-            }
+        else if(a>b){
+            System.out.println("a is greater than b");
+        }
+        else{
+            System.out.println("a is less than b");
         }
     }   
 }
