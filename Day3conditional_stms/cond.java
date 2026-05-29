@@ -1,4 +1,4 @@
-package Day3;
+package Day3conditional_stms;
 import java.util.*;
 public class cond 
 {

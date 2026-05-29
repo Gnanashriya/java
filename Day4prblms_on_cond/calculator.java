@@ -1,4 +1,4 @@
-package Day4;
+package Day4prblms_on_cond;
 import java.util.*;
 public class calculator {
     public static void main (String args [])
