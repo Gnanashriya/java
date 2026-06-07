@@ -11,5 +11,4 @@ public class Half_py_with_num{
             System.out.println();
         }
     }
-
 }
