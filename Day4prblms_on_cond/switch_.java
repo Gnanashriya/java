@@ -15,6 +15,6 @@ public class switch_ {
         break;
         default: System.out.println("invalid button");
     }
-
+    sc.close();
    }
 }

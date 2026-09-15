@@ -46,7 +46,7 @@ public class month_prblm {
                 System.out.println("There are 12 months only so enter from 1 to 12 only");
             }
         // problem in part 2 video-- 1st problem
-        int age=sc.nextInt();
+        int age =sc.nextInt();
         float percentage=sc.nextFloat();
         char section=sc.next().charAt(0);
         String name=sc.nextLine();
@@ -54,6 +54,7 @@ public class month_prblm {
         boolean result=sc.nextBoolean();
         byte child_age=sc.nextByte();
         }
+      
 }
 
 

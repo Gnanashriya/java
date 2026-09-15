@@ -14,6 +14,7 @@ public class conditional
         else{
             System.out.println("Teenager");
         }
+        sc.close();
     }
     
 }

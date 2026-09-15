@@ -1,6 +1,6 @@
 package Day7pattern;
 import java.util.*;
-public class half_pyramid {
+public class half_pyr {
     public static void main (String args[]){
         int n=4;
         //outer loop
