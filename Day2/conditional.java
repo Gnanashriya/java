@@ -8,11 +8,13 @@ public class conditional
         System.out.print("Enter your age: ");
         int age=sc.nextInt();
         // if else condition
-        if(age>18){
+        if(age<=18){
+                System.out.println("teenager ");
+            } else if (age<50) {
                 System.out.println("Adult");
-            }
-        else{
-            System.out.println("Teenager");
+            } 
+            else{
+            System.out.println("senior citizen ");
         }
         sc.close();
     }
