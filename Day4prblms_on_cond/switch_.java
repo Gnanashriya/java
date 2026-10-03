@@ -5,7 +5,7 @@ public class switch_ {
    {    
     Scanner sc=new Scanner(System.in);
     int button = sc.nextInt();
-    
+    System.out.println("Enter a case no");
     switch(button){
         case 1: System.out.println("hi");
         break;
